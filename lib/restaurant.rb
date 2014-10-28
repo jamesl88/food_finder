@@ -5,7 +5,7 @@ class Restaurant
   @@filepath = nil
 
   def self.filepath=(path=nil)
-    @@filepath = File.join(APP_ROOT, path)    
+    @@filepath = File.join(APP_ROOT, path)
   end
 
   attr_accessor :name, :cuisine, :price
@@ -19,9 +19,9 @@ class Restaurant
   end
 
   def self.file_useable?
-    return false unless @@filepath    
-    return false unless File.exists?(@@filepath)    
-    return false unless File.readable?(@@filepath)    
+    return false unless @@filepath
+    return false unless File.exists?(@@filepath)
+    return false unless File.readable?(@@filepath)
     return false unless File.writable?(@@filepath)
     return true
   end
@@ -32,10 +32,10 @@ class Restaurant
   end
 
   def self.saved_resturants
-    # We have to ask outselves, do we want a fresh copy each 
+    # We have to ask outselves, do we want a fresh copy each
     # time or do we want to store the results in a variable?
 
-    restaurants = [] 
+    restaurants = []
     if file_useable?
       file = File.new(@@filepath, 'r')
       file.each_line do |line|
@@ -64,7 +64,7 @@ class Restaurant
   def initialize(args={})
     @name    = args[:name]    || ""
     @cuisine = args[:cuisine] || ""
-    @price   = args[:price]   || ""   
+    @price   = args[:price]   || ""
   end
 
   def import_line(line)

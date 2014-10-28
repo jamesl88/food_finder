@@ -92,4 +92,3 @@ This will exit the program.
 
 * More columns options such as descretionary service charge or VAT
 * Sortable columns in both ascending and descending order
-
