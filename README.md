@@ -12,7 +12,7 @@ This is a simple resturant finder written in `ruby 2.1.1`. It demontrates some o
 * Class methods
 
 The `resturants.txt` file is just the file which contains the records needed to display a list
-If this file does not exist then the file will be created when adding a new restaurant.
+If this file doesn't exist then a new file will be created when adding a new restaurant.
 
 ***
 
@@ -66,7 +66,7 @@ Sort using: '> list cuisine or '> list by cuisine'
 #### Find
 
 Find using a key phrase to search the restaurant list.
-Examples: `> find nandos`, `> find portuguese`
+Examples: `find nandos`, `find portuguese`
 
 `> find nandos`
 
