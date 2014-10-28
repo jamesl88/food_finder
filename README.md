@@ -16,6 +16,21 @@ If this file does not exist then the file will be created when adding a new rest
 
 ***
 
+## Getting Started
+
+`ruby init.rb`
+
+Example output:
+```
+<<< Welcome to the Food Finder >>>
+
+This is an interactive guide to help you find the food you crave.
+
+Commands: 'list', 'add', 'find', 'quit'
+
+>
+```
+
 ## Commands
 
 #### Add
