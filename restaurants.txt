@@ -3,3 +3,4 @@ Masala zone	Indian	12
 KFC	Fast food	6
 J sheekey	British	25
 Wetherspoons	pub	10
+Burger king	fast food	6

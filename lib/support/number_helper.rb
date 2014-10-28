@@ -9,7 +9,7 @@ module NumberHelper
     precision = options[:precision]  || 2
     delimiter = options[:delimiter]  || ","
     separator = options[:separator]  || "."
-    
+
     separator = "" if precision == 0
     integer, decimal = number.to_s.split('.')
 
@@ -19,7 +19,7 @@ module NumberHelper
       integer = integer.insert(i, delimiter)
     end
 
-    if precision == 0 
+    if precision == 0
       precise_decimal = ""
     else
       # make sure decimal is not nil

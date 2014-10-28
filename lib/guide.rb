@@ -77,7 +77,7 @@ class Guide
       when 'cuisine'
         r1.cuisine.downcase <=> r2.cuisine.downcase
       when 'price'
-        r1.price.to_i <=> r2.price.to_i 
+        r1.price.to_i <=> r2.price.to_i
       end
     end
 
@@ -90,9 +90,9 @@ class Guide
     if keyword
       restaurants = Restaurant.saved_resturants
       found = restaurants.select do |rest|
-        rest.name.downcase.include?(keyword.downcase) || 
-        rest.cuisine.downcase.include?(keyword.downcase) || 
-        rest.price.to_i <= keyword.to_i 
+        rest.name.downcase.include?(keyword.downcase)    ||
+        rest.cuisine.downcase.include?(keyword.downcase) ||
+        rest.price.to_i <= keyword.to_i
       end
       output_restaurant_table(found)
     else
