@@ -1,0 +1,5 @@
+Nandos	portuguese	10
+Masala zone	Indian	12
+KFC	Fast food	6
+J sheekey	British	25
+Wetherspoons	pub	10
