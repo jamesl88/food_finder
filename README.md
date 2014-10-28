@@ -45,13 +45,13 @@ Example output:
  Nandos                         Portuguese           £10.00
  Wetherspoons                   Pub                  £10.00
 ------------------------------------------------------------
-Sort using: 'list cuisine or 'list by cuisine'
+Sort using: '> list cuisine or '> list by cuisine'
 ```
 
 #### Find
 
 Find using a key phrase to search the restaurant list.
-Examples: 'find nandos', 'find portuguese'
+Examples: `> find nandos`, `> find portuguese`
 
 `> find nandos`
 
@@ -70,3 +70,11 @@ Example output:
 `> quit`
 
 This will exit the program.
+
+***
+
+### Potential new features
+
+* More columns options such as descretionary service charge or VAT
+* Sortable columns in both ascending and descending order
+
