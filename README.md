@@ -18,7 +18,7 @@ If this file does not exist then the file will be created when adding a new rest
 
 ## Getting Started
 
-`ruby init.rb`
+Run the following command: `ruby init.rb`
 
 Example output:
 ```
