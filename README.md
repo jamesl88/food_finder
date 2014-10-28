@@ -16,6 +16,8 @@ If this file does not exist then the file will be created when adding a new rest
 
 ***
 
+## Commands
+
 #### Add
 `> add`
 
@@ -29,7 +31,7 @@ If `resturants.txt` doesn't exist then a new `resturants.txt` file will be creat
 This command will display a list of resturants.
 There is also a sortable command: `list cuisine` or `list by cuisine`
 
-Example output
+Example output:
 ```
 
                     LISTING RESTAURANTS
@@ -53,6 +55,7 @@ Examples: 'find nandos', 'find portuguese'
 
 `> find nandos`
 
+Example output:
 ```
                      FIND A RESTAURANT
 
@@ -67,5 +70,3 @@ Examples: 'find nandos', 'find portuguese'
 `> quit`
 
 This will exit the program.
-
-***
